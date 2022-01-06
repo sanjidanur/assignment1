@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+}
+
+.banner-area {
+
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+.container {
+    width: 50%;
+    margin-left: 3%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-left: 10px;
+    border-left: 3px solid #e653cd;
+
+}
+
+p {
+    margin: 15px 0;
+    padding: 15px 0;
+    text-align: justify;
+}
+
+#instruct {
+    font-size: 12px;
+}
+
+.tag {
+    font-size: 30px;
+    color: #740e66;
+    text-transform: uppercase;
+}
+
+
+
+.user {
+    width: 90%;
+    padding: 10px 0px;
+    border-radius: 20px;
+
+}
+
+#logo {
+    width: 80%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 14px;
+    color: honeydew;
+    padding: 10px 15px;
+    margin: 20px 0;
+    background-color: #740e66;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    background: #af1f9c;
+
+}
+
+/* Section 2 */
+.text {
+    font-size: 30px;
+    padding: 10px 0px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.product-list {
+
+    display: flex;
+    margin: 15px 20px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+
+
+}
+
+.product {
+    margin: 15px 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(223, 217, 217);
+    text-align: justify;
+}
+
+#card-1 {
+    background-color: #c49ec5;
+}
+
+#card-2 {
+    background-color: #ffa3a3;
+}
+
+#card-3 {
+    background-color: #f0be74;
+}
+
+.cake {
+    height: 200px;
+    width: 200px;
+    background-image: url(images/shapes/shape-5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+
+
+}
+
+#p-graph {
+    width: 90%;
+    padding-right: 5px;
+}
+
+footer {
+    background-color: #3d1537;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 15px;
+    text-transform: capitalize;
+    font-family: 'Exo'sans-serif;
+    font-size: 20px;
+}
+
+#year {
+    color: goldenrod;
+}
+
+#fb-link {
+    font-size: 10px;
+    text-transform: lowercase;
+}
